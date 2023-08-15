@@ -31,8 +31,8 @@ devDependencies:
     specifier: 2.8.0
     version: 2.8.0(@types/node@20.5.0)
   astro-compress:
-    specifier: 2.0.10
-    version: 2.0.10
+    specifier: 2.0.14
+    version: 2.0.14
   concurrently:
     specifier: 8.2.0
     version: 8.2.0
@@ -1476,15 +1476,15 @@ packages:
       tslib: 2.6.1
     dev: true
 
-  /astro-compress@2.0.10:
-    resolution: {integrity: sha512-0UrOKIKopkoAV3nPYBAythL0LL44i/hFqCcc8UoofKvu/8RYembTstTH7hPg5REKABwBGyjIOwseC5AeI2DMwg==}
+  /astro-compress@2.0.14:
+    resolution: {integrity: sha512-kpUfZA7Nm9WccqAGaTnS5fcH1MbRRKWUearIhy/hXWvNWkYQ8ytFuWDAvTe0grRbqLFKWAxD5ArGBWyA/VDHGg==}
     dependencies:
       '@types/csso': 5.0.0
       '@types/html-minifier-terser': 7.0.0
       csso: 5.0.5
-      files-pipe: 2.0.14
+      files-pipe: 2.0.16
       html-minifier-terser: 7.2.0
-      sharp: 0.32.4
+      sharp: 0.32.5
       svgo: 3.0.2
       terser: 5.19.2
     dev: true
@@ -2501,8 +2501,8 @@ packages:
       pend: 1.2.0
     dev: true
 
-  /files-pipe@2.0.14:
-    resolution: {integrity: sha512-P+mw+yePZotQ24xgn2bqbJXVqpJkRErnJDAFF8/hYXK8cCKz1gHdpCOtqQfp/c432S00Is/54LLfboJHH3ZDUg==}
+  /files-pipe@2.0.16:
+    resolution: {integrity: sha512-jHFoRG9R1XgtOil6mo5/zhIQhBp87khu7LydI0G4dmqI5ZjI8kXK1amG5v5FxqL6k2cuRQ/e28zzs6AOZNP4gA==}
     dependencies:
       '@types/node': 20.5.0
       deepmerge-ts: 5.1.0
@@ -4728,6 +4728,21 @@ packages:
 
   /sharp@0.32.4:
     resolution: {integrity: sha512-exUnZewqVZC6UXqXuQ8fyJJv0M968feBi04jb9GcUHrWtkRoAKnbJt8IfwT4NJs7FskArbJ14JAFGVuooszoGg==}
+    engines: {node: '>=14.15.0'}
+    requiresBuild: true
+    dependencies:
+      color: 4.2.3
+      detect-libc: 2.0.2
+      node-addon-api: 6.1.0
+      prebuild-install: 7.1.1
+      semver: 7.5.4
+      simple-get: 4.0.1
+      tar-fs: 3.0.4
+      tunnel-agent: 0.6.0
+    dev: true
+
+  /sharp@0.32.5:
+    resolution: {integrity: sha512-0dap3iysgDkNaPOaOL4X/0akdu0ma62GcdC2NBQ+93eqpePdDdr2/LM0sFdDSMmN7yS+odyZtPsb7tx/cYBKnQ==}
     engines: {node: '>=14.15.0'}
     requiresBuild: true
     dependencies:
