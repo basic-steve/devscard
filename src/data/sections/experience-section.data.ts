@@ -1,18 +1,31 @@
 import type { ExperienceSection } from '@/types/sections/experience-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { facebook, github, instagram, linkedin, twitter, website } from '../helpers/links';
+import { linkedin, website } from '../helpers/links';
 import {
-  chakraUi,
-  eslint,
-  firebase,
+  wordPress,
+  jquery,
+  php,
+  angular,
+  pug,
+  redux,
+  html,
+  css,
+  javaScript,
+  aws,
+  styledComponents,
+  docker,
+  turborepo,
+  serverless,
+  shopify,
+  nodeJs,
   nextJs,
-  nx,
+  apolloGraphql,
   pnpm,
   react,
-  reactQuery,
   tailwindCss,
   typescript,
-  vue,
+  sass,
+  phpmyadmin,
 } from '../helpers/skills';
 
 const experienceSectionData = {
@@ -24,59 +37,113 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Senior front-end developer',
-      company: 'Google',
-      image: import('@/assets/logos/google-logo.jpg'),
-      dates: [new Date('2020-02'), null],
+      role: 'Full stack web developer',
+      company: 'Velasca 👞, Milan/half-remote',
+      image: import('@/assets/logos/velasca-logo.jpeg'),
+      dates: [new Date('2021-10'), null],
       description: `
-        - In tristique vulputate augue vel egestas.
-        - Quisque ac imperdiet tortor, at lacinia ex.
-        - Duis vel ex hendrerit, commodo odio sed, aliquam enim.
-        - Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi.
-        - Nunc malesuada leo et est iaculis facilisis.
-        - Fusce eu urna ut magna malesuada fringilla.
+        Development and maintenance of Velasca’s e-commerce based on Shopify, building landing pages from the ground up, internal APIs, internal tools and dev-ops optimization. 
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), nextJs(), typescript(), nx(), firebase()],
+        tags: [
+          react(),
+          typescript(),
+          apolloGraphql(),
+          pnpm(),
+          nodeJs(),
+          shopify(),
+          docker(),
+          turborepo(),
+          serverless(),
+          styledComponents(),
+          aws(),
+        ],
       },
-      links: [facebook({ url: '#' }), linkedin({ url: '#' })],
+      links: [
+        website({ url: 'https://it.velasca.com/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/velasca/' }),
+      ],
     },
     {
-      role: 'React.js developer',
-      company: 'Facebook',
-      image: import('@/assets/logos/facebook-logo.png'),
-      dates: [new Date('2019-04'), new Date('2020-02')],
-      description: `
-        - Aenean eget ultricies felis. Pellentesque dictum massa ut tellus eleifend, sed posuere massa mattis.
-        - Ut posuere massa lacus, eleifend molestie tortor auctor vel.
-        - Sed sed sollicitudin eros, id ultricies mi. Aliquam sodales elit vel ante tempor, non vehicula nibh facilisis.
-        - Cras feugiat ultricies maximus. Aliquam tristique ex odio, ac semper urna accumsan a.
-      `,
+      role: 'Front end developer',
+      company: 'Vigilate, Brescia',
+      image: import('@/assets/logos/vigilate-logo.jpg'),
+      dates: [new Date('2021-09'), new Date('2021-10')],
+      description: `Web app development used for managing video surveillance and traffic on the road.`,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), reactQuery(), chakraUi(), eslint()],
+        tags: [react()],
       },
-      links: [website({ url: '#' }), instagram({ url: '#' })],
+      links: [website({ url: 'https://www.vigilatevision.com/' })],
     },
     {
-      role: 'Junior front-end developer',
-      company: 'GitLab',
-      image: import('@/assets/logos/gitlab-logo.png'),
-      dates: [new Date('2016-09'), new Date('2019-04')],
+      role: 'Front end developer',
+      company: 'Spartan tech, Milano/full-remote',
+      image: import('@/assets/logos/spartan-tech-logo.jpg'),
+      dates: [new Date('2020-04'), new Date('2021-08')],
       description: `
-        Nulla volutpat justo ante, rhoncus posuere massa egestas in:
-
-        - Quisque pellentesque, dolor nec sollicitudin iaculis, sem velit consequat ligula, eget tempus ligula leo et est.
-        - Maecenas ut elit sit amet nibh maximus condimentum in nec lorem. Pellentesque tincidunt odio vel leo suscipit, in interdum mi gravida.
-
-        Donec non vulputate augue 🤓
+        Development of SaaS front-end web applications based on blockchain technology, responsive UI/UX.
+        Creating email templates for marketing campaigns with MJML templating language.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [vue(), tailwindCss(), pnpm()],
+        tags: [react(), typescript(), tailwindCss(), nextJs(), styledComponents()],
       },
-      links: [twitter({ url: '#' }), github({ url: '#' })],
+      links: [
+        website({ url: 'https://www.spartantech.it/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/spartantech/' }),
+      ],
+    },
+    {
+      role: 'Full stack developer',
+      company: 'SI2001, Milan',
+      image: import('@/assets/logos/si-2001.jpg'),
+      dates: [new Date('2019-04'), new Date('2020-04')],
+      description: `
+        - Consultant at Maire Tecnimont
+          Front-end web development of an internal managerial web app written in angular Angular, UI UX redesign.
+        - Consultant at Eni
+          Development of two web apps, one open publicly and one designed for Eni’s intranet, to report errors and problems with Eni’s gas infrastructure.
+          Employed technologies: React.js, Redux, immer.js, REST.
+        - Stage
+          Training HTML, CSS, ES6, Node.js, React, Angular.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [react(), redux(), angular(), nodeJs(), html(), css(), javaScript()],
+      },
+      links: [linkedin({ url: 'https://it.linkedin.com/company/si2001' })],
+    },
+    {
+      role: 'Frontend developer',
+      company: 'Playground, Milan',
+      image: import('@/assets/logos/playground-logo.jpg'),
+      dates: [new Date('2018-11'), new Date('2019-02')],
+      description: `Front end development of landing pages to be integrated inside Adobe Experience Manager.`,
+      tagsList: {
+        title: 'Technologies',
+        tags: [html(), css(), javaScript(), sass(), pug()],
+      },
+      links: [
+        website({ url: 'https://www.playground.it/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/playground-digital-agency' }),
+      ],
+    },
+    {
+      role: 'Full stack developer',
+      company: 'Alkemy Lab, Milan',
+      image: import('@/assets/logos/alkemy-logo.jpg'),
+      dates: [new Date('2018-11'), new Date('2018-07')],
+      description: `Development of Wordpress theme to be used in a hypothetical website designed to book rooms and propose local activities to their guests.`,
+      tagsList: {
+        title: 'Technologies',
+        tags: [wordPress(), html(), css(), jquery(), php(), phpmyadmin()],
+      },
+      links: [
+        website({ url: 'https://www.alkemy.com/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/alkemy-enabling-evolution/' }),
+      ],
     },
   ],
 } as const satisfies ReadonlyDeep<ExperienceSection>;
