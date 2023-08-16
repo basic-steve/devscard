@@ -24,7 +24,7 @@ const mainSectionData = {
     { label: 'Website', value: 'stefano.castiglia.dev', url: '/', fullRow: true },
   ],
   description: `I’m Stefano, I’m 26. I’m a full stack web developer and I have always been fascinated by the IT field and loved it. Over the years of my career I specialized in web technologies and I’m working mainly on the latest React version and node. In my spare time I manage a home Linux server as personal cloud: time machine backups, surveillance, home automation, file storage… all on docker layer`,
-  tags: [{ name: 'Open for freelance' }, { name: 'Available for mentoring' }, { name: 'Working on side project' }],
+  tags: [],
   action: {
     label: 'Download CV',
     url: '/cv.pdf',
