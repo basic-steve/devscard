@@ -18,6 +18,41 @@ skill({ description: '...' }) — returns skill with a description displayed whe
 
 */
 
+export const insomnia = createSkillFactory({
+  name: 'Insomnia',
+  icon: 'simple-icons:insomnia',
+  iconColor: '#4000BF',
+  url: 'https://insomnia.rest/',
+});
+
+export const git = createSkillFactory({
+  name: 'git',
+  icon: 'simple-icons:git',
+  iconColor: '#F14E32',
+  url: 'https://git-scm.com/',
+});
+
+export const macOS = createSkillFactory({
+  name: 'macOS',
+  icon: 'simple-icons:macos',
+  iconColor: '#333',
+  url: '#',
+});
+
+export const linux = createSkillFactory({
+  name: 'Linux',
+  icon: 'simple-icons:linux',
+  iconColor: '#333',
+  url: '#',
+});
+
+export const visualStudioCode = createSkillFactory({
+  name: 'Visual Studio Code',
+  icon: 'simple-icons:visualstudiocode',
+  iconColor: '#0066B8',
+  url: 'https://code.visualstudio.com/',
+});
+
 export const wordPress = createSkillFactory({
   name: 'WordPress',
   icon: 'simple-icons:wordpress',
