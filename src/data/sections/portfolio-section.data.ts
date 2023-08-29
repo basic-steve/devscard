@@ -1,22 +1,7 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
-import { demo, github, mockups, website } from '../helpers/links';
-import {
-  chakraUi,
-  eslint,
-  firebase,
-  jest,
-  nestJs,
-  nextJs,
-  nx,
-  pnpm,
-  postgreSql,
-  prettier,
-  react,
-  sass,
-  tailwindCss,
-  typescript,
-} from '../helpers/skills';
+import { github, website } from '../helpers/links';
+import { eslint, pnpm, prettier, java, maven, bash, astro, tailwindCss } from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
@@ -31,97 +16,76 @@ const portfolioSectionData = {
   },
   projects: [
     {
-      name: 'Golden Bulls',
-      image: import('@/assets/portfolio/project-1.jpeg'),
-      dates: [new Date('2020-03'), null],
+      name: 'PowsUp!',
+      image: import('@/assets/portfolio/powsup-logo.jpg'),
+      dates: [new Date('2023-07'), null],
+      details: [
+        { label: 'Team size', value: '10 people' },
+        { label: 'My role', value: ['Full stack web developer', 'Dev ops'] },
+        { label: 'Category', value: ['Web app', 'Open source'] },
+      ],
+      pdfDetails: [
+        { label: 'Demo', value: 'https://powsup.net/', url: 'https://powsup.net/' },
+        { label: 'Organization', value: 'https://github.com/PowsUp', url: 'https://github.com/PowsUp' },
+      ],
+      description: `PowsUp! is an Italian group for the organization and creation of Furry events in Lazio and Central Italy.
+        My role in the group is to manage the website and the general IT infrastructure in collaboration with other three developers.
+        We are actively developing a blog to post future events, it's still a work in progress but the main employed tecnologies are Astro and Sanity.`,
+      tagsList: {
+        title: 'Technologies',
+        tags: [astro(), tailwindCss(), pnpm(), eslint(), prettier()],
+      },
+      links: [website({ url: 'https://powsup.net/' }), github({ url: 'https://github.com/PowsUp' })],
+    },
+    {
+      name: 'Update cloudflare record',
+      image: import('@/assets/portfolio/bash-logo.jpg'),
+      dates: [new Date('2018-11'), null],
       details: [
         { label: 'Team size', value: '1 person' },
-        { label: 'My role', value: ['Front-end Developer', 'Designer'] },
-        { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Web app', 'Open source'] },
+        { label: 'Category', value: ['Shell scripts'] },
       ],
       pdfDetails: [
-        { label: 'Demo', value: 'https://golden-bulls-d73jd7.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/golden-bulls', url: '#' },
-      ],
-      screenshots: [
-        { src: import('@/assets/portfolio/project-1-screenshot-1.jpg'), alt: 'First screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-2.jpg'), alt: 'Second screenshot' },
-        { src: import('@/assets/portfolio/project-1-screenshot-3.jpg'), alt: 'Third screenshot' },
+        {
+          label: 'Repository',
+          value: 'https://github.com/CatMonster/update-cloudflare-record',
+          url: 'https://github.com/CatMonster/update-cloudflare-record',
+        },
       ],
       description:
-        'In tristique vulputate augue vel egestas. Quisque ac imperdiet tortor, at lacinia ex. Duis vel ex hendrerit, commodo odio sed, aliquam enim. Ut arcu nulla, tincidunt eget arcu eget, molestie vulputate nisi. Nunc malesuada leo et est iaculis facilisis.',
+        'A simple and ugly script to update a single cloudflare A record and get notified when it happens via email Use case: home server, raspberry pi open on network...',
       tagsList: {
         title: 'Technologies',
-        tags: [nextJs(), sass(), pnpm(), eslint(), prettier()],
+        tags: [bash()],
       },
-      links: [mockups({ url: '#' }), demo({ url: '#' })],
+      links: [github({ url: 'https://github.com/CatMonster/update-cloudflare-record' })],
     },
     {
-      name: 'TruQuest',
-      image: import('@/assets/portfolio/project-2.jpeg'),
-      dates: [new Date('2019-06'), new Date('2020-02')],
+      name: 'Dyslexo',
+      image: import('@/assets/portfolio/dyslexo-logo.jpg'),
+      dates: [new Date('2016-01'), new Date('2017-06')],
       details: [
-        { label: 'Team size', value: '7 people' },
-        { label: 'My role', value: ['Front-end Developer', 'Mobile Developer', 'Designer'] },
-        { label: 'Company', value: 'Facebook' },
-        { label: 'Category', value: ['Web app', 'Mobile app'] },
+        { label: 'Team size', value: '1 person' },
+        { label: 'My role', value: ['Developer', 'Designer'] },
+        { label: 'Category', value: ['Desktop application', 'Open source'] },
       ],
       pdfDetails: [
-        { label: 'Demo', value: 'https://tru-quest-ck7ea3.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/tru-quest', url: '#' },
+        {
+          label: 'Repository',
+          value: 'https://github.com/CatMonster/Dyslexo',
+          url: 'https://github.com/CatMonster/Dyslexo',
+        },
       ],
       description:
-        'Ut ultricies tortor at sodales aliquam. Vivamus metus ante, fringilla nec ligula in, suscipit rhoncus mauris. Praesent hendrerit velit odio, at accumsan urna faucibus convallis. Nunc at massa eget ligula volutpat dictum a sit amet libero. Vestibulum iaculis molestie maximus. In hac habitasse platea dictumst.',
+        'Dyslexo - A simple Text To Speech launcher for dyslexic people, is an open source screen reader designed for dyslexic users. This project is born from a personal necessity: enjoy text to speech through simple and not bloated software meant to be used day to day. Dyslexo features seamless multilingual support and automatic language recognition. Its features include adjustable playback, pause functionalities, and the option to save generated audio as files for later playback.',
       tagsList: {
         title: 'Technologies',
-        tags: [react(), tailwindCss(), nestJs(), postgreSql()],
+        tags: [java(), maven()],
       },
-      links: [mockups({ url: '#' }), demo({ url: '#' })],
-    },
-    {
-      name: 'Software Chasers',
-      image: import('@/assets/portfolio/project-3.jpeg'),
-      dates: [new Date('2018-01'), new Date('2020-12')],
-      details: [
-        { label: 'Team size', value: '3 people' },
-        { label: 'My role', value: ['Front-end Developer', 'Designer'] },
-        { label: 'Company', value: 'None' },
-        { label: 'Category', value: ['Web app', 'Open source'] },
+      links: [
+        website({ url: 'https://www.imparando.net/sito/tesine/dyslexo.htm' }),
+        github({ url: 'https://github.com/CatMonster/Dyslexo' }),
       ],
-      pdfDetails: [
-        { label: 'Demo', value: 'https://software-chasers-e82l8e.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/software-chasers', url: '#' },
-      ],
-      description:
-        'Quisque id consectetur eros. In hac habitasse platea dictumst. Sed eu pulvinar orci. Mauris consequat, est in dignissim varius, neque nisl commodo mauris, id blandit risus justo eu nulla.',
-      tagsList: {
-        title: 'Technologies',
-        tags: [react(), chakraUi(), typescript(), nx(), pnpm()],
-      },
-      links: [website({ url: '#' }), github({ url: '#' })],
-    },
-    {
-      name: 'Disco Ninjas',
-      image: import('@/assets/portfolio/project-4.jpeg'),
-      dates: [new Date('2016-05'), new Date('2018-07')],
-      details: [
-        { label: 'Team size', value: '11 people' },
-        { label: 'My role', value: 'Front-end Developer' },
-        { label: 'Company', value: 'Google' },
-        { label: 'Category', value: ['Mobile app', 'Open source'] },
-      ],
-      pdfDetails: [
-        { label: 'Demo', value: 'https://disco-ninjas-g321ol.netlify.app', url: '#' },
-        { label: 'Repository', value: 'https://github.com/mark-freeman/disco-ninjas', url: '#' },
-      ],
-      description:
-        'Praesent eu neque tortor. Vestibulum ac magna nisl. Vivamus massa sem, feugiat in pharetra non, convallis egestas purus. Ut consequat ullamcorper sem, in euismod nibh posuere ut. ',
-      tagsList: {
-        title: 'Technologies',
-        tags: [typescript(), jest(), firebase()],
-      },
-      links: [mockups({ url: '#' }), github({ url: '#' })],
     },
   ],
 } as const satisfies ReadonlyDeep<PortfolioSection>;

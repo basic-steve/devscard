@@ -18,6 +18,27 @@ skill({ description: '...' }) — returns skill with a description displayed whe
 
 */
 
+export const bash = createSkillFactory({
+  name: 'Bash',
+  icon: 'simple-icons:gnubash',
+  iconColor: '#333333',
+  url: 'https://www.gnu.org/software/bash/',
+});
+
+export const java = createSkillFactory({
+  name: 'Java',
+  icon: 'fa6-brands:java',
+  iconColor: '#333333',
+  url: 'https://www.java.com/',
+});
+
+export const maven = createSkillFactory({
+  name: 'Maven',
+  icon: 'simple-icons:apachemaven',
+  iconColor: '#BE3F29',
+  url: 'https://maven.apache.org/',
+});
+
 export const insomnia = createSkillFactory({
   name: 'Insomnia',
   icon: 'simple-icons:insomnia',
