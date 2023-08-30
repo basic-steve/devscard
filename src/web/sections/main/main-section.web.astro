@@ -1,7 +1,7 @@
 ---
 import type { MainSection } from '@/types/sections/main-section.types';
 import Description from '@/web/components/description.astro';
-import DownloadButton from '@/web/components/download-button.astro';
+// import DownloadButton from '@/web/components/download-button.astro';
 import LinkButton from '@/web/components/link-button.astro';
 import SectionCard from '@/web/components/section-card.astro';
 import TagsList from '@/web/components/tags-list.astro';
@@ -10,7 +10,16 @@ import LabelledValue from '@/web/components/labelled-value.astro';
 
 export interface Props extends MainSection {}
 
-const { action, config, description, details, fullName, links, role, tags } = Astro.props;
+const {
+  //action,
+  config,
+  description,
+  details,
+  fullName,
+  links,
+  role,
+  tags,
+} = Astro.props;
 ---
 
 <SectionCard {...config} hideTitle>
@@ -20,11 +29,11 @@ const { action, config, description, details, fullName, links, role, tags } = As
         <div class="w-full">
           <div class="flex gap-6">
             <Typography variant="main-title">{fullName}</Typography>
-            <DownloadButton {...action} >
+            <!-- <DownloadButton {...action} >
               <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
                 <path stroke-linecap="round" stroke-linejoin="round" d="M3 16.5v2.25A2.25 2.25 0 005.25 21h13.5A2.25 2.25 0 0021 18.75V16.5M16.5 12L12 16.5m0 0L7.5 12m4.5 4.5V3" />
               </svg>  
-            </DownloadButton>
+            </DownloadButton> -->
           </div>
           <Typography variant="main-subtitle">{role}</Typography>
         </div>

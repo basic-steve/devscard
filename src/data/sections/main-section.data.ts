@@ -9,7 +9,7 @@ const mainSectionData = {
     slug: 'profile',
     visible: true,
   },
-  image: import('@/assets/my-image.jpeg'),
+  image: '',
   fullName: 'Stefano Castiglia',
   role: 'Mid full stack web developer',
   details: [
