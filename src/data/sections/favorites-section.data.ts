@@ -74,6 +74,12 @@ const favoritesSectionData = {
     title: 'Media I follow',
     data: [
       {
+        image: import('@/assets/favorites/media/emilkowalski.jpg'),
+        title: '@emilkowalski_',
+        type: 'Twitter profile',
+        url: 'https://twitter.com/emilkowalski_',
+      },
+      {
         image: import('@/assets/favorites/media/fireship.jpeg'),
         title: 'Fireship.io',
         type: 'YouTube channel',
