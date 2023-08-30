@@ -11,14 +11,13 @@ const config = {
     },
   },
   meta: {
-    title: 'Mark Freeman - Senior React Developer',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. In sodales ac dui at vestibulum. In condimentum metus id dui tincidunt, in blandit mi vehicula.',
+    title: 'Stefano Castiglia - Full stack web developer',
+    description: `Stefano's castigilia portfolio and downloadable curriculum vitae`,
     faviconPath: '/src/assets/my-image.jpeg',
   },
   pdf: {
     footer:
-      'I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process.',
+      'In compliance with the Italian legislative Decree no. 196 dated 30/06/2003, I hereby authorize you to use and process my personal details contained in this document.',
   },
 } as const satisfies ReadonlyDeep<Config>;
 

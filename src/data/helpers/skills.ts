@@ -18,11 +18,186 @@ skill({ description: '...' }) — returns skill with a description displayed whe
 
 */
 
+export const bash = createSkillFactory({
+  name: 'Bash',
+  icon: 'simple-icons:gnubash',
+  iconColor: '#333333',
+  url: 'https://www.gnu.org/software/bash/',
+});
+
+export const java = createSkillFactory({
+  name: 'Java',
+  icon: 'fa6-brands:java',
+  iconColor: '#333333',
+  url: 'https://www.java.com/',
+});
+
+export const maven = createSkillFactory({
+  name: 'Maven',
+  icon: 'simple-icons:apachemaven',
+  iconColor: '#BE3F29',
+  url: 'https://maven.apache.org/',
+});
+
+export const insomnia = createSkillFactory({
+  name: 'Insomnia',
+  icon: 'simple-icons:insomnia',
+  iconColor: '#4000BF',
+  url: 'https://insomnia.rest/',
+});
+
+export const git = createSkillFactory({
+  name: 'git',
+  icon: 'simple-icons:git',
+  iconColor: '#F14E32',
+  url: 'https://git-scm.com/',
+});
+
+export const macOS = createSkillFactory({
+  name: 'macOS',
+  icon: 'simple-icons:macos',
+  iconColor: '#333',
+  url: '#',
+});
+
+export const linux = createSkillFactory({
+  name: 'Linux',
+  icon: 'simple-icons:linux',
+  iconColor: '#333',
+  url: '#',
+});
+
+export const visualStudioCode = createSkillFactory({
+  name: 'Visual Studio Code',
+  icon: 'simple-icons:visualstudiocode',
+  iconColor: '#0066B8',
+  url: 'https://code.visualstudio.com/',
+});
+
+export const wordPress = createSkillFactory({
+  name: 'WordPress',
+  icon: 'simple-icons:wordpress',
+  iconColor: '#21759B',
+  url: 'https://wordpress.com/',
+});
+
+export const php = createSkillFactory({
+  name: 'PHP',
+  icon: 'simple-icons:php',
+  iconColor: '#7A86B8',
+  url: 'https://www.php.net/',
+});
+
+export const jquery = createSkillFactory({
+  name: 'JQuery',
+  icon: 'simple-icons:jquery',
+  iconColor: '#7ACEF4',
+  url: 'https://www.php.net/',
+});
+
+export const phpmyadmin = createSkillFactory({
+  name: 'phpMyAdmin',
+  icon: 'simple-icons:phpmyadmin',
+  iconColor: '#333',
+  url: 'https://www.phpmyadmin.net/',
+});
+
+export const pug = createSkillFactory({
+  name: 'Pug',
+  icon: 'simple-icons:pug',
+  iconColor: '#A86454',
+  url: 'https://pugjs.org/',
+});
+
+export const redux = createSkillFactory({
+  name: 'Redux',
+  icon: 'simple-icons:redux',
+  iconColor: '#764ABC',
+  url: 'https://redux.js.org/',
+});
+
+export const html = createSkillFactory({
+  name: 'HTML',
+  icon: 'simple-icons:html5',
+  iconColor: '#E65100',
+  url: '#',
+});
+
+export const css = createSkillFactory({
+  name: 'CSS',
+  icon: 'simple-icons:css3',
+  iconColor: '#0277BD',
+  url: '#',
+});
+
+export const javaScript = createSkillFactory({
+  name: 'JavaScript',
+  icon: 'simple-icons:javascript',
+  iconColor: '#FFD600',
+  url: '#',
+});
+
+export const angular = createSkillFactory({
+  name: 'Angular',
+  icon: 'simple-icons:angular',
+  iconColor: '#DD0031',
+  url: 'https://angular.io/',
+});
+
+export const aws = createSkillFactory({
+  name: 'AWS',
+  icon: 'simple-icons:amazonaws',
+  iconColor: '#F90',
+  url: 'https://aws.amazon.com/',
+});
+
+export const styledComponents = createSkillFactory({
+  name: 'Styled Components',
+  icon: 'simple-icons:styledcomponents',
+  iconColor: '#FFD300',
+  url: 'https://styled-components.com/',
+});
+
+export const docker = createSkillFactory({
+  name: 'Docker',
+  icon: 'simple-icons:docker',
+  iconColor: '#007BFF',
+  url: 'https://www.docker.com/',
+});
+
+export const turborepo = createSkillFactory({
+  name: 'Turbo',
+  icon: 'simple-icons:turborepo',
+  iconColor: '#333333',
+  url: 'https://turbo.build/',
+});
+
+export const serverless = createSkillFactory({
+  name: 'Serverless',
+  icon: 'simple-icons:serverless',
+  iconColor: '#FD5750',
+  url: 'https://www.serverless.com/',
+});
+
+export const shopify = createSkillFactory({
+  name: 'Shopify',
+  icon: 'simple-icons:shopify',
+  iconColor: '#95BF47',
+  url: 'https://www.shopify.com/',
+});
+
+export const nodeJs = createSkillFactory({
+  name: 'Node JS',
+  icon: 'simple-icons:nodedotjs',
+  iconColor: '#43853D',
+  url: 'https://nodejs.org/',
+});
+
 export const apolloGraphql = createSkillFactory({
-  name: 'Apollo GraphQL',
-  icon: 'simple-icons:apollographql',
-  iconColor: '#311C87',
-  url: 'https://www.apollographql.com/',
+  name: 'GraphQL',
+  icon: 'simple-icons:graphql',
+  iconColor: '#E10098',
+  url: 'https://graphql.org/',
 });
 
 export const astro = createSkillFactory({
