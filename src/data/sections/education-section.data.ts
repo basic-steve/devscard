@@ -23,7 +23,7 @@ const educationSectionData = {
       institution: 'I.I.S. Castelli - Brescia',
       image: import('@/assets/logos/iis-castelli-logo.jpg'),
       dates: [new Date('2011.09'), new Date('2017.06')],
-      description: 'Degree EQF livello 4, Perito informatico (high school diploma)',
+      description: 'Degree EQF level 4, Perito informatico (high school diploma)',
       links: [website({ url: 'https://www.iiscastelli.edu.it/' })],
     },
   ],

@@ -106,7 +106,7 @@ const experienceSectionData = {
         - Consultant at Eni
           Development of two web apps, one open publicly and one designed for Eni’s intranet, to report errors and problems with Eni’s gas infrastructure.
           Employed technologies: React.js, Redux, immer.js, REST.
-        - Stage
+        - Internship
           Training HTML, CSS, ES6, Node.js, React, Angular.
       `,
       tagsList: {
