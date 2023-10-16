@@ -3,13 +3,13 @@ import type { ReadonlyDeep } from 'type-fest';
 
 const favoritesSectionData = {
   config: {
-    title: 'My favorites',
+    title: 'My favourite',
     slug: 'favorites',
     icon: 'fa6-solid:star',
     visible: true,
   },
   books: {
-    title: `Books I'm reading`,
+    title: `Books I read`,
     data: [
       {
         image: import('@/assets/favorites/books/refactoring-ui.png'),
@@ -61,7 +61,7 @@ const favoritesSectionData = {
   //   ],
   // },
   videos: {
-    title: 'Courses i followed',
+    title: 'Courses I followed',
     data: [
       {
         image: import('@/assets/favorites/videos/just-javascript.jpg'),

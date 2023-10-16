@@ -26,7 +26,7 @@ const skillsSectionData = {
   },
   skillSets: [
     {
-      title: "What I know and what I'd love to excell at",
+      title: "What I know and what I'd love to excel at",
       skills: [
         react({ level: 4 }),
         astro({ level: 1 }),

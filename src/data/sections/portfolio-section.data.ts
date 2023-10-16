@@ -28,7 +28,7 @@ const portfolioSectionData = {
         { label: 'Demo', value: 'https://powsup.net/', url: 'https://powsup.net/' },
         { label: 'Organization', value: 'https://github.com/PowsUp', url: 'https://github.com/PowsUp' },
       ],
-      description: `PowsUp! is an Italian group for the organization and creation of Furry events in Lazio and Central Italy.
+      description: `<i>PowsUp!</i> is an Italian group for the organization and creation of Furry events in Lazio and Central Italy.
         My role in the group is to manage the website and the general IT infrastructure in collaboration with other three developers.
         We are actively developing a blog to post future events, it's still a work in progress but the main employed tecnologies are Astro and Sanity.`,
       tagsList: {
@@ -53,7 +53,7 @@ const portfolioSectionData = {
         },
       ],
       description:
-        'A simple and ugly script to update a single cloudflare A record and get notified when it happens via email Use case: home server, raspberry pi open on network...',
+        'A simple and ugly script to update a single "cloudflare A" record and get notified when it happens via email Use case: home server, raspberry pi open on network...',
       tagsList: {
         title: 'Technologies',
         tags: [bash()],
@@ -77,7 +77,7 @@ const portfolioSectionData = {
         },
       ],
       description:
-        'Dyslexo - A simple Text To Speech launcher for dyslexic people, is an open source screen reader designed for dyslexic users. This project is born from a personal necessity: enjoy text to speech through simple and not bloated software meant to be used day to day. Dyslexo features seamless multilingual support and automatic language recognition. Its features include adjustable playback, pause functionalities, and the option to save generated audio as files for later playback.',
+        'Dyslexo - A simple Text To Speech launcher for dyslexic people, is an open source screen-reader designed for dyslexic users. This project is born from a personal necessity: enjoy text to speech through simple and not bloated software meant to be used day-to-day. Dyslexo features seamless multilingual support and automatic language recognition. Its features include adjustable playback, pause functionalities, and the option to save generated audio as files for later playback.',
       tagsList: {
         title: 'Technologies',
         tags: [java(), maven()],
