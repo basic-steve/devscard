@@ -134,7 +134,7 @@ const experienceSectionData = {
       role: 'Full stack developer',
       company: 'Alkemy Lab, Milan',
       image: import('@/assets/logos/alkemy-logo.jpg'),
-      dates: [new Date('2018-11'), new Date('2018-07')],
+      dates: [new Date('2018-03'), new Date('2018-07')],
       description: `Development of Wordpress theme to be used in a hypothetical website designed to book rooms and propose local activities to their guests.`,
       tagsList: {
         title: 'Technologies',
