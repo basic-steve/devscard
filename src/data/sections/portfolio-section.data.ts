@@ -1,7 +1,7 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { github, website } from '../helpers/links';
-import { eslint, pnpm, prettier, java, maven, bash, astro, tailwindCss } from '../helpers/skills';
+import { eslint, pnpm, prettier, java, maven, bash, astro, tailwindCss, contentful } from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
@@ -30,10 +30,10 @@ const portfolioSectionData = {
       ],
       description: `<i>PowsUp!</i> is an Italian group for the organization and creation of Furry events in Lazio and Central Italy.
         My role in the group is to manage the website and the general IT infrastructure in collaboration with other three developers.
-        We are actively developing a blog to post future events, it's still a work in progress but the main employed tecnologies are Astro and Sanity.`,
+        We are actively developing a blog to post future events, it's still a work in progress but the main employed tecnologies are Astro and Contentful.`,
       tagsList: {
         title: 'Technologies',
-        tags: [astro(), tailwindCss(), pnpm(), eslint(), prettier()],
+        tags: [astro(), contentful(), tailwindCss(), pnpm(), eslint(), prettier()],
       },
       links: [website({ url: 'https://powsup.net/' }), github({ url: 'https://github.com/PowsUp' })],
     },
