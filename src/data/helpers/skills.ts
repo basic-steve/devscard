@@ -25,15 +25,12 @@ export const bash = createSkillFactory({
   url: 'https://www.gnu.org/software/bash/',
 });
 
-export const /* The `contentful` skill is creating a skill object for the Contentful platform. It includes the name, icon,
-icon color, and URL for the Contentful website. This skill can be used in various sections of a resume or
-portfolio to showcase proficiency in using Contentful. */
-  contentful = createSkillFactory({
-    name: 'Contentful',
-    icon: 'logos:contentful',
-    iconColor: '#166ee0',
-    url: 'https://www.contentful.com/',
-  });
+export const contentful = createSkillFactory({
+  name: 'Contentful',
+  icon: 'logos:contentful',
+  iconColor: '#166ee0',
+  url: 'https://www.contentful.com/',
+});
 
 export const java = createSkillFactory({
   name: 'Java',

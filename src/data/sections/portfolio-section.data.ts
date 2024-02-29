@@ -22,15 +22,17 @@ const portfolioSectionData = {
       details: [
         { label: 'Team size', value: '10 people' },
         { label: 'My role', value: ['Full stack web developer', 'Dev ops'] },
-        { label: 'Category', value: ['Web app', 'Open source'] },
       ],
       pdfDetails: [
         { label: 'Demo', value: 'https://powsup.net/', url: 'https://powsup.net/' },
         { label: 'Organization', value: 'https://github.com/PowsUp', url: 'https://github.com/PowsUp' },
       ],
-      description: `<i>PowsUp!</i> is an Italian group for the organization and creation of Furry events in Lazio and Central Italy.
-        My role in the group is to manage the website and the general IT infrastructure in collaboration with other three developers.
-        We are actively developing a blog to post future events, it's still a work in progress but the main employed tecnologies are Astro and Contentful.`,
+      description: `<i>PowsUp!</i> is an Italian group for the organization and creation of Furry events in Italy.
+      I'm part of the main staff and I'm also the IT team-leader. With the other three developers, we manage the website and general IT infrastructure.
+      We developed a blog to post future events, the main employed technologies are Astro and Contentful.
+      Other future projects will be:
+      <ul><li>A custom-made bar web app to handle attendees beverage orders, a cashier takes orders on his client and a barman receives them on his client;</li><li>Custom attendee self-area to manage personal credentials at events;</li><li>Ticket system powered by Pretix.</li></ul>
+      `,
       tagsList: {
         title: 'Technologies',
         tags: [astro(), contentful(), tailwindCss(), pnpm(), eslint(), prettier()],
