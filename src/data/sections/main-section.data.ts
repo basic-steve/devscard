@@ -20,7 +20,7 @@ const mainSectionData = {
     { label: 'Phone', value: '+39 3466203426' },
     { label: 'Email', value: 'stefano.castiglia@protonmail.ch' },
     { label: 'LinkedIn', value: '/in/stefanocastiglia', url: 'https://linkedin.com/in/stefanocastiglia' },
-    { label: 'GitHub', value: '/CatMonster', url: 'https://github.com/CatMonster' },
+    { label: 'GitHub', value: '/CatMonster', url: 'https://github.com/basic-steve' },
     { label: 'Website', value: 'stefano.castiglia.dev', url: '/', fullRow: true },
   ],
   description: `I’m Stefano, I’m 26. I’m a full stack web developer and I have always been fascinated by the IT field and loved it. Over the years of my career I specialized in web technologies and I’m working mainly on the latest React version and node. In my spare time I manage a home Linux server as personal cloud: time machine backups, surveillance, home automation, file storage… all on docker layer`,
