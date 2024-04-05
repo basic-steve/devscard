@@ -32,7 +32,7 @@ const mainSectionData = {
   },
   links: [
     linkedin({ url: 'https://linkedin.com/in/stefanocastiglia' }),
-    github({ url: 'https://github.com/CatMonster' }),
+    github({ url: 'https://github.com/basic-steve' }),
     stackoverflow({ url: 'https://stackoverflow.com/users/6442495/steve-wolf' }),
   ],
 } as const satisfies ReadonlyDeep<MainSection>;
