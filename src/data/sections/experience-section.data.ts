@@ -37,7 +37,7 @@ const experienceSectionData = {
   },
   jobs: [
     {
-      role: 'Full stack web developer',
+      role: 'Full-stack web developer',
       company: 'Velasca 👞, Milan/half-remote',
       image: import('@/assets/logos/velasca-logo.jpeg'),
       dates: [new Date('2021-10'), null],
@@ -96,7 +96,7 @@ const experienceSectionData = {
       ],
     },
     {
-      role: 'Full stack developer',
+      role: 'Full-stack developer',
       company: 'SI2001, Milan',
       image: import('@/assets/logos/si-2001.jpg'),
       dates: [new Date('2019-04'), new Date('2020-04')],

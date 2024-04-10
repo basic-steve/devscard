@@ -11,7 +11,7 @@ const config = {
     },
   },
   meta: {
-    title: 'Stefano Castiglia - Full stack web developer',
+    title: 'Stefano Castiglia - Full-stack web developer',
     description: `Stefano's castigilia portfolio and downloadable curriculum vitae`,
     faviconPath: '/src/assets/my-image.png',
   },

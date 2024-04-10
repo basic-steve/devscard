@@ -21,7 +21,7 @@ const portfolioSectionData = {
       dates: [new Date('2023-07'), null],
       details: [
         { label: 'Team size', value: '10 people' },
-        { label: 'My role', value: ['Full stack web developer', 'Dev Ops'] },
+        { label: 'My role', value: ['Full-stack web developer', 'Dev Ops'] },
       ],
       pdfDetails: [
         { label: 'Demo', value: 'https://powsup.net/', url: 'https://powsup.net/' },
