@@ -31,7 +31,7 @@ const portfolioSectionData = {
       I'm part of the main staff and I'm also the IT team leader. With the other three developers, we manage the website and general IT infrastructure.
       We developed a blog to post future events, the main employed technologies are Astro and Contentful.
       Other future projects will be:
-      <ul><li>A custom-made bar web app to handle attendees beverage orders, a cashier takes orders on their client and a barman receives them on their client;</li><li>Custom attendee self-area to manage personal credentials at events.</li><li>Ticket system powered by Pretix.</li></ul>
+      <ul><li>A custom-made bar web app to handle attendees beverage orders, a cashier takes orders on their client and a barman receives them on their client.</li><li>Custom attendee self-area to manage personal credentials at events.</li><li>Ticket system powered by Pretix.</li></ul>
       `,
       tagsList: {
         title: 'Technologies',
