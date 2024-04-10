@@ -42,7 +42,7 @@ const experienceSectionData = {
       image: import('@/assets/logos/velasca-logo.jpeg'),
       dates: [new Date('2021-10'), null],
       description: `
-        Development and maintenance of Velasca’s e-commerce based on Shopify, building landing pages from the ground up, internal APIs, internal tools and dev-ops optimization. 
+        Development and maintenance of Velasca’s e-commerce based on Shopify, building landing pages from the ground up, internal APIs, internal tools and Dev Ops optimization. 
       `,
       tagsList: {
         title: 'Technologies',
@@ -66,7 +66,7 @@ const experienceSectionData = {
       ],
     },
     {
-      role: 'Front end developer',
+      role: 'Front-end developer',
       company: 'Vigilate, Brescia',
       image: import('@/assets/logos/vigilate-logo.jpg'),
       dates: [new Date('2021-09'), new Date('2021-10')],
@@ -78,12 +78,12 @@ const experienceSectionData = {
       links: [website({ url: 'https://www.vigilatevision.com/' })],
     },
     {
-      role: 'Front end developer',
+      role: 'Front-end developer',
       company: 'Spartan tech, Milano/full-remote',
       image: import('@/assets/logos/spartan-tech-logo.jpg'),
       dates: [new Date('2020-04'), new Date('2021-08')],
       description: `
-        Development of SaaS front-end web applications based on blockchain technology, responsive UI/UX.
+        Development of SaaS front-end web applications based on blockchain technology, responsive UX/UI.
         Creating email templates for marketing campaigns with MJML templating language.
       `,
       tagsList: {
@@ -101,26 +101,23 @@ const experienceSectionData = {
       image: import('@/assets/logos/si-2001.jpg'),
       dates: [new Date('2019-04'), new Date('2020-04')],
       description: `
-        - Consultant at Maire Tecnimont
-          Front-end web development of an internal managerial web app written in angular Angular, UI UX redesign.
-        - Consultant at Eni
-          Development of two web apps, one open publicly and one designed for Eni’s intranet, to report errors and problems with Eni’s gas infrastructure.
-          Employed technologies: React.js, Redux, immer.js, REST.
-        - Internship
-          Training HTML, CSS, ES6, Node.js, React, Angular.
+        - <b>Consultant at Maire Tecnimont</b>, front-end web development of an internal managerial web app written in angular Angular, UX/UI redesign.
+        - <b>Consultant at Eni</b>, development of two web apps, one open publicly and one designed for Eni’s intranet, to report errors and problems with Eni’s gas infrastructure.
+          Employed technologies: React, Redux, immer.js, REST.
+        - <b>Internship</b>, training HTML, CSS, ES6, Node, React, Angular.
       `,
       tagsList: {
         title: 'Technologies',
         tags: [react(), redux(), angular(), nodeJs(), html(), css(), javaScript()],
       },
-      links: [linkedin({ url: 'https://it.linkedin.com/company/si2001' })],
+      links: [website({ url: 'https://www.si2001.it/' }), linkedin({ url: 'https://it.linkedin.com/company/si2001' })],
     },
     {
-      role: 'Frontend developer',
+      role: 'Front-end developer',
       company: 'Playground, Milan',
       image: import('@/assets/logos/playground-logo.jpg'),
       dates: [new Date('2018-11'), new Date('2019-02')],
-      description: `Front end development of landing pages to be integrated inside Adobe Experience Manager.`,
+      description: `Front-end development of landing pages to be integrated inside Adobe Experience Manager.`,
       tagsList: {
         title: 'Technologies',
         tags: [html(), css(), javaScript(), sass(), pug()],
@@ -131,7 +128,7 @@ const experienceSectionData = {
       ],
     },
     {
-      role: 'Full stack developer',
+      role: 'Full-stack developer',
       company: 'Alkemy Lab, Milan',
       image: import('@/assets/logos/alkemy-logo.jpg'),
       dates: [new Date('2018-03'), new Date('2018-07')],

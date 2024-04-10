@@ -46,13 +46,6 @@ export const maven = createSkillFactory({
   url: 'https://maven.apache.org/',
 });
 
-export const insomnia = createSkillFactory({
-  name: 'Insomnia',
-  icon: 'logos:insomnia',
-  iconColor: '#4000BF',
-  url: 'https://insomnia.rest/',
-});
-
 export const git = createSkillFactory({
   name: 'git',
   icon: 'logos:git-icon',
@@ -194,7 +187,7 @@ export const shopify = createSkillFactory({
 });
 
 export const nodeJs = createSkillFactory({
-  name: 'Node JS',
+  name: 'Node',
   icon: 'logos:nodejs-icon',
   iconColor: '#43853D',
   url: 'https://nodejs.org/',
@@ -299,7 +292,7 @@ export const prettier = createSkillFactory({
 });
 
 export const react = createSkillFactory({
-  name: 'React.js',
+  name: 'React',
   icon: 'logos:react',
   iconColor: '#61DAFB',
   url: 'https://reactjs.org/',

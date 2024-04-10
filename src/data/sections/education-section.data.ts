@@ -15,7 +15,7 @@ const educationSectionData = {
       institution: 'Digital Universitas Superpartes',
       image: import('@/assets/logos/digital-universitas-logo.jpg'),
       dates: [new Date('2017.07'), new Date('2018.02')],
-      description: 'Digital transformation and management master',
+      description: 'Digital transformation and management master.',
       links: [website({ url: 'https://digitaluniversitas.com/' })],
     },
     {
@@ -23,7 +23,7 @@ const educationSectionData = {
       institution: 'I.I.S. Castelli - Brescia',
       image: import('@/assets/logos/iis-castelli-logo.jpg'),
       dates: [new Date('2011.09'), new Date('2017.06')],
-      description: 'Degree EQF level 4, Perito informatico (high school diploma)',
+      description: 'Degree EQF level 4, Perito informatico (high school diploma).',
       links: [website({ url: 'https://www.iiscastelli.edu.it/' })],
     },
   ],

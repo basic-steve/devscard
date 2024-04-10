@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@floating-ui/dom": "1.4.4",
-    "iconify-icon": "1.0.8",
+    "iconify-icon": "2.0.0",
     "nanoid": "4.0.2"
   },
   "devDependencies": {
