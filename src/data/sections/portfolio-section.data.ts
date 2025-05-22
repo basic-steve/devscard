@@ -1,7 +1,7 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { github, website } from '../helpers/links';
-import { eslint, pnpm, prettier, java, maven, bash, astro, tailwindCss, contentful } from '../helpers/skills';
+import { figma, turborepo, pnpm, react, java, maven, bash, astro, tailwindCss, contentful } from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
@@ -15,6 +15,23 @@ const portfolioSectionData = {
     },
   },
   projects: [
+    {
+      name: 'TailTown',
+      image: import('@/assets/portfolio/tailtown-logo.png'),
+      dates: [new Date('2024-01'), null],
+      details: [
+        { label: 'Team size', value: '3 people' },
+        { label: 'My role', value: ['Front-end developer', 'UX/UI designer'] },
+      ],
+      pdfDetails: [{ label: 'Github', value: 'https://github.com/TailTown' }],
+      description: `<i>TailTown</i> is a cross-platform application that features a redesigned user experience for accessing content from the Fur Affinity website, aiming to resemble social media platforms like Instagram or Twitter rather than a legacy forum.
+My role includes designing the UI from scratch, developing new views and components using modern frontend technologies. I focus on delivering a clean, responsive, and user-friendly interface, with particular attention to usability, accessibility, and performance, while adhering to the constraints of the original platform.`,
+      tagsList: {
+        title: 'Technologies',
+        tags: [react(), turborepo(), tailwindCss(), pnpm(), figma()],
+      },
+      links: [github({ url: 'https://github.com/TailTown' })],
+    },
     {
       name: 'PowsUp!',
       image: import('@/assets/portfolio/powsup-logo.jpg'),
@@ -35,7 +52,7 @@ const portfolioSectionData = {
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [astro(), contentful(), tailwindCss(), pnpm(), eslint(), prettier()],
+        tags: [astro(), contentful(), tailwindCss(), pnpm()],
       },
       links: [website({ url: 'https://powsup.net/' }), github({ url: 'https://github.com/PowsUp' })],
     },

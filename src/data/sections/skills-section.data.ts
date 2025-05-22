@@ -29,7 +29,7 @@ const skillsSectionData = {
       skills: [
         react({ level: 4 }),
         astro({ level: 2 }),
-        typescript({ level: 3 }),
+        typescript({ level: 4 }),
         apolloGraphql({ level: 3 }),
         nextJs({ level: 3 }),
         shopify({ level: 4 }),

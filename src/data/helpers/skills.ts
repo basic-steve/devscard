@@ -25,6 +25,13 @@ export const bash = createSkillFactory({
   url: 'https://www.gnu.org/software/bash/',
 });
 
+export const figma = createSkillFactory({
+  name: 'Figma',
+  icon: 'logos:figma',
+  iconColor: '#333333',
+  url: 'https://figma.com',
+});
+
 export const contentful = createSkillFactory({
   name: 'Contentful',
   icon: 'logos:contentful',
