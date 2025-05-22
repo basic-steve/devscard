@@ -23,7 +23,7 @@ const mainSectionData = {
     { label: 'GitHub', value: '/basic-steve', url: 'https://github.com/basic-steve' },
     { label: 'Website', value: 'stefano.castiglia.dev', url: '/', fullRow: true },
   ],
-  description: `I’m Stefano, I’m 27. I’m a full-stack web developer and I have always been fascinated by the IT field and loved it. Over the years of my career I specialized in web technologies and I’m working mainly on the latest React version and node. In my spare time I manage a home Linux server as personal cloud: time machine backups, surveillance, home automation, file storage… all on docker layer`,
+  description: `I’m Stefano, I’m 28. I’m a full-stack web developer and I have always been fascinated by the IT field and loved it. Over the years of my career I specialized in web technologies and I’m working mainly on the latest React version and node. In my spare time I manage a home Linux server as personal cloud: time machine backups, surveillance, home automation, file storage… all on docker layer`,
   tags: [],
   action: {
     label: '',
