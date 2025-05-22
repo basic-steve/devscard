@@ -38,11 +38,28 @@ const experienceSectionData = {
   jobs: [
     {
       role: 'Full-stack web developer',
+      company: 'ituna, Milan/half-remote',
+      image: import('@/assets/logos/ituna-logo.png'),
+      dates: [new Date('2025-03'), null],
+      description: `
+        - <b>Consultant at Nexi digital</b>, front-end web development and maintenance of private and commercial Nexi portal card holder.
+      `,
+      tagsList: {
+        title: 'Technologies',
+        tags: [react(), redux()],
+      },
+      links: [
+        website({ url: 'https://it.velasca.com/' }),
+        linkedin({ url: 'https://www.linkedin.com/company/velasca/' }),
+      ],
+    },
+    {
+      role: 'Full-stack web developer',
       company: 'Velasca 👞, Milan/half-remote',
       image: import('@/assets/logos/velasca-logo.jpeg'),
-      dates: [new Date('2021-10'), null],
+      dates: [new Date('2021-10'), new Date('2025-02')],
       description: `
-        Development and maintenance of Velasca’s e-commerce based on Shopify, building landing pages from the ground up, internal APIs, internal tools and Dev Ops optimization. 
+        Development and maintenance of Velasca’s e-commerce based on Shopify, building landing pages from the ground up, internal APIs, internal tools and Dev Ops optimization. Creating transactional email templates with React Email library.
       `,
       tagsList: {
         title: 'Technologies',
