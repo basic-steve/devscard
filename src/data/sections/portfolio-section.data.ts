@@ -24,8 +24,8 @@ const portfolioSectionData = {
         { label: 'My role', value: ['Front-end developer', 'UX/UI designer'] },
       ],
       pdfDetails: [{ label: 'Github', value: 'https://github.com/TailTown' }],
-      description: `<i>TailTown</i> is a cross-platform application that features a redesigned user experience for accessing content from the Fur Affinity website, aiming to resemble social media platforms like Instagram or Twitter rather than a legacy forum.
-My role includes designing the UI from scratch, developing new views and components using modern frontend technologies. I focus on delivering a clean, responsive, and user-friendly interface, with particular attention to usability, accessibility, and performance, while adhering to the constraints of the original platform.`,
+      description: `<i>TailTown</i> is a cross-platform application that features a redesigned user experience for accessing content from an early 2000s forum-like website, aiming to resemble social media platforms like Instagram or Twitter rather than a legacy forum.
+My role includes designing the UI from scratch, developing new views and components using modern frontend technologies. I focused on delivering a clean, responsive, and user-friendly interface, with particular attention to usability, accessibility, and performance, while adhering to the constraints of the original platform.`,
       tagsList: {
         title: 'Technologies',
         tags: [react(), turborepo(), tailwindCss(), pnpm(), figma()],
