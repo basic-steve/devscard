@@ -38,7 +38,7 @@ const experienceSectionData = {
   jobs: [
     {
       role: 'Full-stack web developer',
-      company: 'ituna, Milan/half-remote',
+      company: 'iTuna, Milan/half-remote',
       image: import('@/assets/logos/ituna-logo.png'),
       dates: [new Date('2025-03'), null],
       description: `
