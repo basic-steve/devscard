@@ -96,7 +96,7 @@ const experienceSectionData = {
     },
     {
       role: 'Front-end developer',
-      company: 'Spartan tech, Milano/full-remote',
+      company: 'Spartan tech, Milan/full-remote',
       image: import('@/assets/logos/spartan-tech-logo.jpg'),
       dates: [new Date('2020-04'), new Date('2021-08')],
       description: `
