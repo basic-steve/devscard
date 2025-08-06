@@ -42,7 +42,10 @@ const experienceSectionData = {
       image: import('@/assets/logos/ituna-logo.png'),
       dates: [new Date('2025-03'), null],
       description: `
-        - <b>Consultant at Nexi digital</b>, front-end web development and maintenance of private and commercial Nexi portal card holder.
+        <ul>
+          <li>
+            <b>Consultant at Nexi digital</b>, responsible for front-end web development and maintenance of both private and commercial Nexi cardholder portals. Migration from a monolithic front-end architecture to a unified microservices-based platform, enabling reusable and scalable deployments for current and future banking clients.
+          </li>
       `,
       tagsList: {
         title: 'Technologies',
