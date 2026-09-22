@@ -25,6 +25,20 @@ export const bash = createSkillFactory({
   url: 'https://www.gnu.org/software/bash/',
 });
 
+export const cloudflare = createSkillFactory({
+  name: 'Cloudflare',
+  icon: 'devicon:cloudflare',
+  iconColor: '#F38020',
+  url: 'https://www.cloudflare.com/',
+});
+
+export const tanstack = createSkillFactory({
+  name: 'TanStack',
+  icon: 'simple-icons:tanstack',
+  iconColor: '#333333',
+  url: 'https://tanstack.com/',
+});
+
 export const figma = createSkillFactory({
   name: 'Figma',
   icon: 'logos:figma',
@@ -209,14 +223,14 @@ export const apolloGraphql = createSkillFactory({
 
 export const astro = createSkillFactory({
   name: 'Astro',
-  icon: 'logos:astro-icon',
+  icon: 'simple-icons:astro',
   iconColor: '#FF5D01',
   url: 'https://astro.build/',
 });
 
 export const chakraUi = createSkillFactory({
   name: 'Chakra UI',
-  icon: 'logos:chakraui',
+  icon: 'simple-icons:chakraui',
   iconColor: '#319795',
   url: 'https://chakra-ui.com/',
 });
@@ -307,7 +321,7 @@ export const react = createSkillFactory({
 
 export const reactQuery = createSkillFactory({
   name: 'React Query',
-  icon: 'logos:reactquery',
+  icon: 'simple-icons:reactquery',
   iconColor: '#FF4154',
   url: 'https://tanstack.com/query',
 });
@@ -342,7 +356,7 @@ export const typescript = createSkillFactory({
 
 export const vue = createSkillFactory({
   name: 'Vue.js',
-  icon: 'logos:vuedotjs',
+  icon: 'simple-icons:vuedotjs',
   iconColor: '#4FC08D',
   url: 'https://vuejs.org/',
 });

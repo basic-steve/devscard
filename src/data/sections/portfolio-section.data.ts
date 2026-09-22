@@ -1,7 +1,21 @@
 import type { PortfolioSection } from '@/types/sections/portfolio-section.types';
 import type { ReadonlyDeep } from 'type-fest';
 import { github, website } from '../helpers/links';
-import { figma, turborepo, pnpm, react, java, maven, bash, astro, tailwindCss, contentful } from '../helpers/skills';
+import {
+  figma,
+  turborepo,
+  pnpm,
+  react,
+  java,
+  maven,
+  bash,
+  astro,
+  tailwindCss,
+  contentful,
+  tanstack,
+  cloudflare,
+  typescript,
+} from '../helpers/skills';
 
 const portfolioSectionData = {
   config: {
@@ -47,12 +61,11 @@ My role includes designing the UI from scratch with the help of shadcn, developi
       description: `<i>PowsUp!</i> is an Italian group for the organization and creation of furry events in Italy.
       I'm part of the main staff and I'm also the IT team leader. With the other three developers, we manage the website and general IT infrastructure.
       We developed a blog to post future events, the main employed technologies are Astro and Contentful.
-      Other future projects will be:
-      <ul><li>A custom-made bar web app to handle attendees beverage orders, a cashier takes orders on their client and a barman receives them on their client.</li><li>Custom attendee self-area to manage personal credentials at events.</li><li>Ticket system powered by Pretix.</li></ul>
+      Our upcoming project, <i>MyPowsUp!</i>, is a self-service area where members and attendees can manage their personal details and event credentials, while admins manage users and event settings.
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [astro(), contentful(), tailwindCss(), pnpm()],
+        tags: [react(), tanstack(), typescript(), astro(), contentful(), tailwindCss(), pnpm(), cloudflare()],
       },
       links: [website({ url: 'https://powsup.net/' }), github({ url: 'https://github.com/PowsUp' })],
     },

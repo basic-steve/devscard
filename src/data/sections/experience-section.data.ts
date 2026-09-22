@@ -25,6 +25,7 @@ import {
   tailwindCss,
   typescript,
   sass,
+  tanstack,
   phpmyadmin,
 } from '../helpers/skills';
 
@@ -38,18 +39,24 @@ const experienceSectionData = {
   jobs: [
     {
       role: 'Full-stack web developer',
-      company: 'iTuna, Milan/half-remote',
+      company: 'iTuna, Milan/full-remote',
       image: import('@/assets/logos/ituna-logo.png'),
       dates: [new Date('2025-03'), null],
       description: `
         <ul>
           <li>
+            <b>Consultant at Adesso.it alpitour</b>, Consultant supporting Alpitour Group in the hotel contract domain. Employed technologies: React + TS, micro-frontend with webpack module federation.
+          </li>
+        </ul>
+        <ul>
+          <li>
             <b>Consultant at Nexi digital</b>, responsible for front-end web development and maintenance of both private and commercial Nexi cardholder portals. Migration from a monolithic front-end architecture to a unified microservices-based platform, enabling reusable and scalable deployments for current and future banking clients.
           </li>
+        </ul>
       `,
       tagsList: {
         title: 'Technologies',
-        tags: [react(), redux()],
+        tags: [react(), redux(), tanstack()],
       },
       links: [
         website({ url: 'https://it.velasca.com/' }),
